@@ -1,0 +1,10 @@
+.row {
+    padding: 45px 40px 40px 40px;
+    display: flex;
+}
+.button-div {
+    padding: 20px;
+}
+blockquote {
+  	border: none;
+}
