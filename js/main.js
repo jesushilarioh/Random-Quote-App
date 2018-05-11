@@ -23,7 +23,7 @@ var randomEntity = function (array) {
 
 // Jquery
 $(document).ready(function () {
-  $("button").click(function () {
+  $("#userValue").on('keyup', function () {
     $.ajax({
       url: "select.php",
       method: "POST"
